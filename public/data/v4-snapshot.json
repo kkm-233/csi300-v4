@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "status": {
     "mode": "research",
-    "quality": "good",
+    "quality": "stale",
     "dataDate": "2026-07-31",
-    "generatedAt": "2026-08-03 09:00 CST",
-    "message": "研究快照；部署后的每日任务将刷新最新交易数据"
+    "generatedAt": "2026-08-03 22:03 CST",
+    "message": "自动更新失败，保留上一成功快照: StopIteration: "
   },
   "current": {
     "state": "defense",
-    "targetPosition": 0.10,
+    "targetPosition": 0.1,
     "entryGrade": "wait",
     "signals": {
       "flow1w": 0.0485,
       "flow4w": 0.2963,
       "flow1wPercentile": 0.96,
-      "flow4wPercentile": 1.00,
+      "flow4wPercentile": 1.0,
       "positiveFundBreadth": 0.52,
       "positiveAumBreadth": 0.9428,
       "pe": 13.42,
@@ -28,35 +28,128 @@
   },
   "performance": {
     "period": "2019-01-18 至 2026-07-31",
-    "v4": {"cagr":0.1118,"maxDrawdown":-0.2261,"sharpe":0.75,"totalReturn":1.2209},
-    "benchmark": {"cagr":0.0760,"maxDrawdown":-0.4156,"sharpe":0.42,"totalReturn":0.7363}
+    "v4": {
+      "cagr": 0.1118,
+      "maxDrawdown": -0.2261,
+      "sharpe": 0.75,
+      "totalReturn": 1.2209
+    },
+    "benchmark": {
+      "cagr": 0.076,
+      "maxDrawdown": -0.4156,
+      "sharpe": 0.42,
+      "totalReturn": 0.7363
+    }
   },
   "recentTransitions": [
-    {"date":"2026-06-26","state":"defense","position":0.10,"reason":"趋势确认恶化，资金冲击未获得价格确认，进入深度防御。"},
-    {"date":"2024-03-15","state":"hold","position":1.00,"reason":"近期高质量申购后，13周趋势重新转正，恢复基准持有。"},
-    {"date":"2023-08-25","state":"defense","position":0.10,"reason":"大额申购后价格继续破位，触发“申购失败”防御。"},
-    {"date":"2023-01-13","state":"hold","position":1.00,"reason":"资金流与13周趋势共同确认修复，分批恢复高仓位。"}
+    {
+      "date": "2026-06-26",
+      "state": "defense",
+      "position": 0.1,
+      "reason": "趋势确认恶化，资金冲击未获得价格确认，进入深度防御。"
+    },
+    {
+      "date": "2024-03-15",
+      "state": "hold",
+      "position": 1.0,
+      "reason": "近期高质量申购后，13周趋势重新转正，恢复基准持有。"
+    },
+    {
+      "date": "2023-08-25",
+      "state": "defense",
+      "position": 0.1,
+      "reason": "大额申购后价格继续破位，触发“申购失败”防御。"
+    },
+    {
+      "date": "2023-01-13",
+      "state": "hold",
+      "position": 1.0,
+      "reason": "资金流与13周趋势共同确认修复，分批恢复高仓位。"
+    }
   ],
   "chartSeries": [
-    {"date":"2019-01-18","v4":1.000,"benchmark":1.000,"position":0.40,"flow4w":0.00,"quality":"annual"},
-    {"date":"2019-12-31","v4":1.264,"benchmark":1.298,"position":1.00,"flow4w":0.01,"quality":"annual"},
-    {"date":"2020-12-31","v4":1.613,"benchmark":1.661,"position":1.00,"flow4w":0.02,"quality":"annual"},
-    {"date":"2021-12-31","v4":1.707,"benchmark":1.656,"position":0.50,"flow4w":-0.03,"quality":"annual"},
-    {"date":"2022-12-30","v4":1.672,"benchmark":1.327,"position":0.10,"flow4w":-0.06,"quality":"annual"},
-    {"date":"2023-12-29","v4":1.549,"benchmark":1.206,"position":0.10,"flow4w":0.04,"quality":"annual"},
-    {"date":"2024-12-31","v4":1.798,"benchmark":1.443,"position":1.00,"flow4w":0.03,"quality":"annual"},
-    {"date":"2025-12-31","v4":2.163,"benchmark":1.736,"position":1.00,"flow4w":0.02,"quality":"annual"},
-    {"date":"2026-07-31","v4":2.221,"benchmark":1.736,"position":0.10,"flow4w":0.2963,"quality":"annual"}
+    {
+      "date": "2019-01-18",
+      "v4": 1.0,
+      "benchmark": 1.0,
+      "position": 0.4,
+      "flow4w": 0.0,
+      "quality": "annual"
+    },
+    {
+      "date": "2019-12-31",
+      "v4": 1.264,
+      "benchmark": 1.298,
+      "position": 1.0,
+      "flow4w": 0.01,
+      "quality": "annual"
+    },
+    {
+      "date": "2020-12-31",
+      "v4": 1.613,
+      "benchmark": 1.661,
+      "position": 1.0,
+      "flow4w": 0.02,
+      "quality": "annual"
+    },
+    {
+      "date": "2021-12-31",
+      "v4": 1.707,
+      "benchmark": 1.656,
+      "position": 0.5,
+      "flow4w": -0.03,
+      "quality": "annual"
+    },
+    {
+      "date": "2022-12-30",
+      "v4": 1.672,
+      "benchmark": 1.327,
+      "position": 0.1,
+      "flow4w": -0.06,
+      "quality": "annual"
+    },
+    {
+      "date": "2023-12-29",
+      "v4": 1.549,
+      "benchmark": 1.206,
+      "position": 0.1,
+      "flow4w": 0.04,
+      "quality": "annual"
+    },
+    {
+      "date": "2024-12-31",
+      "v4": 1.798,
+      "benchmark": 1.443,
+      "position": 1.0,
+      "flow4w": 0.03,
+      "quality": "annual"
+    },
+    {
+      "date": "2025-12-31",
+      "v4": 2.163,
+      "benchmark": 1.736,
+      "position": 1.0,
+      "flow4w": 0.02,
+      "quality": "annual"
+    },
+    {
+      "date": "2026-07-31",
+      "v4": 2.221,
+      "benchmark": 1.736,
+      "position": 0.1,
+      "flow4w": 0.2963,
+      "quality": "annual"
+    }
   ],
   "engineState": {
-    "formalSignalDate":"2026-07-31",
-    "state":"defense",
-    "targetPosition":0.10,
-    "warningUntil":null,
-    "repairArmedUntil":null
+    "formalSignalDate": "2026-07-31",
+    "state": "defense",
+    "targetPosition": 0.1,
+    "warningUntil": null,
+    "repairArmedUntil": null
   },
   "methodology": {
-    "summary":"ETF份额冲击只负责启动方向判断；估值与趋势负责确认。基准持有100%，高估值赎回进入50%下行预警，趋势确认恶化或申购失败进入10%风险防御。",
-    "details":"网站每天北京时间09:00刷新前一交易日行情、估值与ETF份额。V4正式仓位按周度确认：大额赎回且高估值先进入下行预警；若价格跌破趋势并继续走弱，进入风险防御；防御状态只有高质量申购并获得13周趋势确认后才恢复基准持有。新账户采用独立建仓等级，避免在高估值弱趋势环境直接复制已有账户仓位。ETF申赎可能来自配置、套利和做市，因此份额变化不等于主力资金。"
+    "summary": "ETF份额冲击只负责启动方向判断；估值与趋势负责确认。基准持有100%，高估值赎回进入50%下行预警，趋势确认恶化或申购失败进入10%风险防御。",
+    "details": "网站每天北京时间09:00刷新前一交易日行情、估值与ETF份额。V4正式仓位按周度确认：大额赎回且高估值先进入下行预警；若价格跌破趋势并继续走弱，进入风险防御；防御状态只有高质量申购并获得13周趋势确认后才恢复基准持有。新账户采用独立建仓等级，避免在高估值弱趋势环境直接复制已有账户仓位。ETF申赎可能来自配置、套利和做市，因此份额变化不等于主力资金。"
   }
 }
