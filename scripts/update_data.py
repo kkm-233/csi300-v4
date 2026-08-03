@@ -47,10 +47,25 @@ def total_return_history(ak, start='20190101'):
     d['date']=pd.to_datetime(d.date); return d.dropna().sort_values('date').drop_duplicates('date')
 
 def filter_universe(df,cfg):
-    if df.empty: return df
-    name_col=next(c for c in df.columns if '简称' in c or '名称' in c)
-    code_col=next(c for c in df.columns if '代码' in c)
+    if df.empty:
+        return df
+
+    name_col = 'name' if 'name' in df.columns else next(
+        (c for c in df.columns if '简称' in c or '名称' in c),
+        None
+    )
+    code_col = 'code' if 'code' in df.columns else next(
+        (c for c in df.columns if '代码' in c),
+        None
+    )
+
+    if name_col is None or code_col is None:
+        raise RuntimeError(
+            f'无法识别ETF代码/名称字段，当前字段: {list(df.columns)}'
+        )
+
     names=df[name_col].astype(str)
+    
     base=names.str.contains('沪深300|300ETF',regex=True)
     for kw in cfg['exclude_name_keywords']: base &= ~names.str.contains(kw,regex=False)
     out=df.loc[base].copy(); out['code']=out[code_col].astype(str).str.zfill(6); out['name']=out[name_col].astype(str)
