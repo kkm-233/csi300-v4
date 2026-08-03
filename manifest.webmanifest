@@ -1,0 +1,10 @@
+{
+  "name": "沪深300 · V4 策略控制台",
+  "short_name": "CSI300 V4",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07131a",
+  "theme_color": "#07131a",
+  "lang": "zh-CN",
+  "icons": []
+}

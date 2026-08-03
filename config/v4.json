@@ -1,0 +1,18 @@
+{
+  "timezone": "Asia/Shanghai",
+  "formal_signal_frequency": "weekly",
+  "flow_lookback_weeks": 104,
+  "extreme_percentile": 0.95,
+  "breadth_threshold": 0.60,
+  "high_valuation_percentile": 0.85,
+  "recovery_valuation_percentile": 0.60,
+  "test_valuation_percentile": 0.30,
+  "trend_ma_weeks": 13,
+  "warning_position": 0.50,
+  "defense_position": 0.10,
+  "hold_position": 1.00,
+  "max_weekly_step": 0.20,
+  "warning_weeks": 8,
+  "repair_window_weeks": 26,
+  "exclude_name_keywords": ["增强", "价值", "成长", "ESG", "红利", "等权", "低波", "质量", "行业", "医药", "金融", "非银"]
+}
