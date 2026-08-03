@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
   "status": {
-    "mode": "research",
-    "quality": "stale",
-    "dataDate": "2026-07-31",
-    "generatedAt": "2026-08-03 22:10 CST",
-    "message": "自动更新失败，保留上一成功快照: StopIteration: "
+    "mode": "live",
+    "quality": "good",
+    "dataDate": "2026-08-03",
+    "generatedAt": "2026-08-03 22:21 CST",
+    "message": "自动更新成功"
   },
   "current": {
     "state": "defense",
     "targetPosition": 0.1,
     "entryGrade": "wait",
     "signals": {
-      "flow1w": 0.0485,
-      "flow4w": 0.2963,
-      "flow1wPercentile": 0.96,
+      "flow1w": 0.014827323443802312,
+      "flow4w": 0.2725085044213302,
+      "flow1wPercentile": 0.9302325581395349,
       "flow4wPercentile": 1.0,
-      "positiveFundBreadth": 0.52,
-      "positiveAumBreadth": 0.9428,
-      "pe": 13.42,
-      "pe5yPercentile": 0.8538,
-      "price4w": -0.0524,
-      "priceVsMa20": -0.0312,
-      "ma13Slope": null,
+      "positiveFundBreadth": 0.4444444444444444,
+      "positiveAumBreadth": 0.6777837848652815,
+      "pe": 14.23,
+      "pe5yPercentile": 0.7917341977309562,
+      "price4w": -0.05244962485827642,
+      "priceVsMa20": -0.03115182010616535,
+      "ma13Slope": -0.0062984314409576525,
       "ma13Direction": "down"
     }
   },
