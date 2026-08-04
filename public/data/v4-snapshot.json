@@ -4,7 +4,7 @@
     "mode": "live",
     "quality": "good",
     "dataDate": "2026-08-03",
-    "generatedAt": "2026-08-03 22:21 CST",
+    "generatedAt": "2026-08-04 12:16 CST",
     "message": "自动更新成功"
   },
   "current": {
@@ -14,7 +14,7 @@
     "signals": {
       "flow1w": 0.014827323443802312,
       "flow4w": 0.2725085044213302,
-      "flow1wPercentile": 0.9302325581395349,
+      "flow1wPercentile": 0.875,
       "flow4wPercentile": 1.0,
       "positiveFundBreadth": 0.4444444444444444,
       "positiveAumBreadth": 0.6777837848652815,
