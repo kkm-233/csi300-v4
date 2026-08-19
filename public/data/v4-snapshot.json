@@ -4,8 +4,8 @@
     "mode": "live",
     "quality": "stale",
     "dataDate": "2026-08-05",
-    "generatedAt": "2026-08-18 10:16 CST",
-    "message": "自动更新失败，保留上一成功快照: ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "generatedAt": "2026-08-19 10:18 CST",
+    "message": "自动更新失败，保留上一成功快照: ValueError: left keys must be sorted"
   },
   "current": {
     "state": "defense",
