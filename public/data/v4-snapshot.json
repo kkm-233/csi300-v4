@@ -4,7 +4,7 @@
     "mode": "live",
     "quality": "stale",
     "dataDate": "2026-08-05",
-    "generatedAt": "2026-08-22 10:16 CST",
+    "generatedAt": "2026-08-23 10:24 CST",
     "message": "自动更新失败，保留上一成功快照: ValueError: left keys must be sorted"
   },
   "current": {
