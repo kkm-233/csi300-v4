@@ -4,8 +4,8 @@
     "mode": "live",
     "quality": "stale",
     "dataDate": "2026-08-05",
-    "generatedAt": "2026-08-30 14:19 CST",
-    "message": "自动更新失败，保留上一成功快照: ValueError: left keys must be sorted"
+    "generatedAt": "2026-08-31 14:47 CST",
+    "message": "自动更新失败，保留上一成功快照: ConnectionError: HTTPSConnectionPool(host='fund.szse.cn', port=443): Max retries exceeded with url: /api/report/ShowReport?SHOWTYPE=xlsx&CATALOGID=1000_lf&TABKEY=tab1&random=0.07610353191740105 (Caused by NameResolutionError(\"HTTPSConnection(host='fund.szse.cn', port=443): Failed to resolve 'fund.szse.cn' ([Errno -3] Temporary failure in name resolution)\"))"
   },
   "current": {
     "state": "defense",
