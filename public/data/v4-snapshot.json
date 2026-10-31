@@ -4,8 +4,8 @@
     "mode": "live",
     "quality": "stale",
     "dataDate": "2026-08-05",
-    "generatedAt": "2026-10-30 14:53 CST",
-    "message": "自动更新失败，保留上一成功快照: ConnectionError: HTTPSConnectionPool(host='fund.szse.cn', port=443): Max retries exceeded with url: /api/report/ShowReport?SHOWTYPE=xlsx&CATALOGID=1000_lf&TABKEY=tab1&random=0.07610353191740105 (Caused by NewConnectionError(\"HTTPSConnection(host='fund.szse.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    "generatedAt": "2026-10-31 14:45 CST",
+    "message": "自动更新失败，保留上一成功快照: ValueError: left keys must be sorted"
   },
   "current": {
     "state": "defense",
